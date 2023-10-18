@@ -4,32 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Information</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>This is a HTML form</h1>
-    <form action="">
+    <h1>This is an HTML form</h1>
+    <form action="/action_page.php">
         <fieldset>
             <legend>User Info</legend>
             <p>
                 <label for="name">Name: </label>
-                <input type="text">
+                <input type="text" id="name" name="name">
             </p>
             <p>
                 <label for="email">Email: </label>
-                <input type="email">
+                <input type="email" id="email" name="email">
             </p>
             <p>
-                <label for="password">Password: </label>
-                <input type="password">
+                <label for="pass">Password: </label>
+                <input type="password" id="pass" name="pass">
             </p>
             <p>
                 <label for="phone">Phone: </label>
-                <input type="text">
+                <input type="number" id="phone" name="phone">
+            </p>
+            <p>
+                <label for="dob">Date of Birth: </label>
+                <input type="date" id="dob" name="dob">
             </p>
 
-            <button type="submit">Submit</button>
-
+            <input type="reset">
+            <input type="submit" value="Submit">
         </fieldset>
     </form>
+
+    <script src="main.js"></script>
 </body>
 </html>
