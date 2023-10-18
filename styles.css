@@ -6,6 +6,8 @@
 *{
     font-family: 'Comic Sans MS';
     font-weight: 700;
+    /* border: 0px; */
+    padding: 0px;
 }
 header{
     font-size: 30px;
@@ -16,5 +18,18 @@ header{
 
 .container{
     background-color: #2596be;
+    padding: 10px 20px;
     
+}
+
+#time-div{
+    background-color: yellow;
+    display: inline-block;
+    padding: 8px 15px;
+    border: 2px solid black;
+}
+.time-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

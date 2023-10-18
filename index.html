@@ -8,8 +8,10 @@
 </head>
 <body>
     <header>This is an HTML Form</header>
-    <div title="Showing real time">
-        <p>The time is: <span id="time"></span></p>
+    <div class="time-con">
+        <div title="Showing real time" id="time-div">
+            <p>The time is: <span id="time"></span></p>
+        </div>
     </div>
     <form action="/action_page.php">
         <fieldset>
@@ -37,8 +39,8 @@
                 </p>
                 <p>
                     <label for="gender">Gender: </label>
-                    <input type="radio" id="gender" name="gender" value="male"> Male
-                    <input type="radio" id="gender" name="gender" value="female"> Female
+                    <input type="radio"  name="gender" value="male"> Male
+                    <input type="radio"  name="gender" value="female"> Female
                 </p>
     
                 <input type="reset" title="All inserted values will be reset">
